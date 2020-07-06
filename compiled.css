@@ -96,5 +96,48 @@ body main .section-2 .top-2 p {
 body main .section-2 .bottom-2 img {
   height: 470px;
 }
+body main .section-3 {
+  text-align: center;
+}
+body main .section-3 .top-3 {
+  padding: 40px 160px 80px 160px;
+}
+body main .section-3 .top-3 h1 {
+  margin-bottom: 40px;
+}
+body main .section-3 .top-3 p {
+  color: #9fabb2;
+  line-height: 25px;
+}
+body main .section-3 .bottom-3 {
+  padding: 0px 160px 0px 160px;
+  overflow: hidden;
+}
+body main .section-3 .bottom-3 .card:first-of-type {
+  float: left;
+}
+body main .section-3 .bottom-3 .card:nth-of-type(2) {
+  display: inline-block;
+}
+body main .section-3 .bottom-3 .card:last-of-type {
+  float: right;
+}
+body main .section-3 .bottom-3 .card {
+  width: 25%;
+  margin: 0 20px;
+}
+body main .section-3 .bottom-3 .card img {
+  height: 40px;
+}
+body main .section-3 .bottom-3 .card h3 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+body main .section-3 .bottom-3 .card p {
+  color: #9fabb2;
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin-bottom: 60px;
+}
 
 /*# sourceMappingURL=compiled.css.map */

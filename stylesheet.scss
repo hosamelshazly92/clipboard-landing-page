@@ -143,5 +143,60 @@ body {
                 }
             }
         }
+
+        .section-3 {
+            text-align: center;
+
+            .top-3 {
+                padding: 40px 160px 80px 160px;
+
+                h1 {
+                    margin-bottom: 40px;
+                }
+
+                p {
+                    color: $Grayish-Blue;
+                    line-height: 25px;
+                }
+            }
+
+            .bottom-3 {
+                padding: 0px 160px 0px 160px;
+                overflow: hidden;
+
+                .card:first-of-type {
+                    float: left;
+                }
+
+                .card:nth-of-type(2) {
+                    display: inline-block;
+                }
+
+                .card:last-of-type {
+                    float: right;
+                }
+
+                .card {
+                    width: 25%;
+                    margin: 0 20px;
+
+                    img {
+                        height: 40px;
+                    }
+
+                    h3 {
+                        margin-top: 40px;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        color: $Grayish-Blue;
+                        font-size: 0.8rem;
+                        line-height: 20px;
+                        margin-bottom: 60px;
+                    }
+                }
+            }
+        }
     }
 }
