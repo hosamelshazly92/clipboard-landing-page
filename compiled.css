@@ -149,5 +149,39 @@ body main .section-4 img {
   width: 18%;
   padding: 0 3%;
 }
+body main .section-5 {
+  text-align: center;
+}
+body main .section-5 h1 {
+  margin-top: 80px;
+}
+body main .section-5 p {
+  color: #9fabb2;
+  margin-top: 40px;
+  padding: 0 160px 0 160px;
+}
+body main .section-5 div {
+  margin-bottom: 160px;
+}
+body main .section-5 div button {
+  margin: 50px 20px 0 20px;
+  width: 220px;
+  height: 60px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 30px;
+}
+body main .section-5 div button:first-of-type {
+  font-size: 1.2rem;
+  background-color: #26baa4;
+  box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #26baa4;
+}
+body main .section-5 div button:last-of-type {
+  font-size: 1.2rem;
+  background-color: #6173ff;
+  box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #6173ff;
+}
 
 /*# sourceMappingURL=compiled.css.map */
