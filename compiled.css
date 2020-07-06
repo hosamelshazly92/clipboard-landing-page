@@ -214,50 +214,25 @@ body footer .sec:last-of-type img {
 }
 
 @media (max-width: 945px) {
-  body {
-    font-family: "Bai Jamjuree", sans-serif;
-    font-size: 18px;
-    color: #4c545d;
-  }
   body header {
-    background-image: url("./images/bg-header-desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding-top: 130px;
+    background-image: url("./images/bg-header-mobile.png");
+    padding: 130px 30px 0 30px;
   }
   body header img {
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   }
   body header h1 {
-    margin-top: 80px;
+    font-size: 2.5rem;
+    line-height: 50px;
+    margin-top: 70px;
   }
   body header p {
-    color: #9fabb2;
-    margin-top: 40px;
-    padding: 0 160px;
+    padding: 0;
+    line-height: 30px;
   }
   body header div button {
-    margin: 50px 20px 0 20px;
-    width: 220px;
-    height: 60px;
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 400;
-    border: none;
-    border-radius: 30px;
-  }
-  body header div button:first-of-type {
-    font-size: 1.2rem;
-    background-color: #26baa4;
-    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #26baa4;
-  }
-  body header div button:last-of-type {
-    font-size: 1.2rem;
-    background-color: #6173ff;
-    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #6173ff;
+    width: 100%;
   }
   body main .section-1 div:first-of-type {
     text-align: center;
