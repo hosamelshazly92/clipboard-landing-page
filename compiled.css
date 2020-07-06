@@ -183,5 +183,33 @@ body main .section-5 div button:last-of-type {
   background-color: #6173ff;
   box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #6173ff;
 }
+body footer {
+  height: 160px;
+  background-color: #f5f6f8;
+  padding: 40px 160px;
+}
+body footer .sec {
+  float: left;
+  width: 18%;
+  display: inline-block;
+}
+body footer .sec:first-of-type img {
+  height: 50px;
+}
+body footer .sec:nth-of-type(2) ul,
+body footer .sec:nth-of-type(3) ul,
+body footer .sec:nth-of-type(4) ul {
+  font-size: 1rem;
+  line-height: 30px;
+  list-style-type: none;
+}
+body footer .sec:last-of-type {
+  float: right;
+  text-align: right;
+}
+body footer .sec:last-of-type img {
+  height: 20px;
+  margin: 0 5%;
+}
 
 /*# sourceMappingURL=compiled.css.map */

@@ -23,7 +23,6 @@ body {
     font-family: $font-family;
     font-size: $font-size;
     color: $Dark-Grayish-Blue;
-    //    padding: 130px 160px 0 160px;
 
     header {
         background-image: url("./images/bg-header-desktop.png");
@@ -214,7 +213,7 @@ body {
 
         .section-5 {
             text-align: center;
-            
+
             h1 {
                 margin-top: 80px;
             }
@@ -227,7 +226,7 @@ body {
 
             div {
                 margin-bottom: 160px;
-                
+
                 button {
                     margin: 50px 20px 0 20px;
                     width: 220px;
@@ -252,6 +251,44 @@ body {
                     box-shadow: inset 1px -1px 2px $Dark-Grayish-Blue,
                         5px 5px 20px $Light-Blue;
                 }
+            }
+        }
+    }
+
+    footer {
+        height: 160px;
+        background-color: #f5f6f8;
+        padding: 40px 160px;
+
+        .sec {
+            float: left;
+            width: (90%/5);
+            display: inline-block;
+        }
+
+        .sec:first-of-type {
+            img {
+                height: 50px;
+            }
+        }
+
+        .sec:nth-of-type(2),
+        .sec:nth-of-type(3),
+        .sec:nth-of-type(4) {
+            ul {
+                font-size: 1rem;
+                line-height: 30px;
+                list-style-type: none;
+            }
+        }
+
+        .sec:last-of-type {
+            float: right;
+            text-align: right;
+
+            img {
+                height: 20px;
+                margin: 0 5%;
             }
         }
     }
