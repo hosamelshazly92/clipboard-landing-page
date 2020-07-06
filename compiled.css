@@ -27,6 +27,7 @@ body header h1 {
 body header p {
   color: #9fabb2;
   margin-top: 40px;
+  padding: 0 160px;
 }
 body header div button {
   margin: 50px 20px 0 20px;
@@ -210,6 +211,217 @@ body footer .sec:last-of-type {
 body footer .sec:last-of-type img {
   height: 20px;
   margin: 0 5%;
+}
+
+@media (max-width: 945px) {
+  body {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+    color: #4c545d;
+  }
+  body header {
+    background-image: url("./images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 130px;
+  }
+  body header img {
+    width: 120px;
+    height: 120px;
+  }
+  body header h1 {
+    margin-top: 80px;
+  }
+  body header p {
+    color: #9fabb2;
+    margin-top: 40px;
+    padding: 0 160px;
+  }
+  body header div button {
+    margin: 50px 20px 0 20px;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+  }
+  body header div button:first-of-type {
+    font-size: 1.2rem;
+    background-color: #26baa4;
+    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #26baa4;
+  }
+  body header div button:last-of-type {
+    font-size: 1.2rem;
+    background-color: #6173ff;
+    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #6173ff;
+  }
+  body main .section-1 div:first-of-type {
+    text-align: center;
+  }
+  body main .section-1 div:first-of-type h1 {
+    margin-top: 160px;
+  }
+  body main .section-1 div:first-of-type p {
+    padding: 40px 160px 80px 160px;
+    color: #9fabb2;
+  }
+  body main .section-1 div:last-of-type .left {
+    float: left;
+    width: 50%;
+  }
+  body main .section-1 div:last-of-type .left img {
+    width: 100%;
+  }
+  body main .section-1 div:last-of-type .right {
+    float: right;
+    width: 50%;
+    padding: 70px 270px 0 110px;
+  }
+  body main .section-1 div:last-of-type .right h3 {
+    margin-bottom: 10px;
+  }
+  body main .section-1 div:last-of-type .right p {
+    color: #9fabb2;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin-bottom: 60px;
+  }
+  body main .section-2 {
+    clear: both;
+    text-align: center;
+  }
+  body main .section-2 .top-2 {
+    padding: 160px 160px 120px 160px;
+  }
+  body main .section-2 .top-2 h1 {
+    margin-bottom: 40px;
+  }
+  body main .section-2 .top-2 p {
+    color: #9fabb2;
+    line-height: 25px;
+  }
+  body main .section-2 .bottom-2 img {
+    height: 470px;
+  }
+  body main .section-3 {
+    text-align: center;
+  }
+  body main .section-3 .top-3 {
+    padding: 40px 160px 80px 160px;
+  }
+  body main .section-3 .top-3 h1 {
+    margin-bottom: 40px;
+  }
+  body main .section-3 .top-3 p {
+    color: #9fabb2;
+    line-height: 25px;
+  }
+  body main .section-3 .bottom-3 {
+    padding: 0px 160px 0px 160px;
+  }
+  body main .section-3 .bottom-3 .card:first-of-type {
+    float: left;
+  }
+  body main .section-3 .bottom-3 .card:nth-of-type(2) {
+    display: inline-block;
+  }
+  body main .section-3 .bottom-3 .card:last-of-type {
+    float: right;
+  }
+  body main .section-3 .bottom-3 .card {
+    width: 26.6666666667%;
+    display: inline-block;
+    margin: 0 20px;
+    height: 100px;
+  }
+  body main .section-3 .bottom-3 .card img {
+    height: 40px;
+  }
+  body main .section-3 .bottom-3 .card h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  body main .section-3 .bottom-3 .card p {
+    height: 100px;
+    color: #9fabb2;
+    font-size: 0.8rem;
+    line-height: 20px;
+    margin-bottom: 60px;
+  }
+  body main .section-4 {
+    text-align: center;
+    padding: 160px;
+  }
+  body main .section-4 img {
+    width: 18%;
+    padding: 0 3%;
+  }
+  body main .section-5 {
+    text-align: center;
+  }
+  body main .section-5 h1 {
+    margin-top: 80px;
+  }
+  body main .section-5 p {
+    color: #9fabb2;
+    margin-top: 40px;
+    padding: 0 160px 0 160px;
+  }
+  body main .section-5 div {
+    margin-bottom: 160px;
+  }
+  body main .section-5 div button {
+    margin: 50px 20px 0 20px;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+  }
+  body main .section-5 div button:first-of-type {
+    font-size: 1.2rem;
+    background-color: #26baa4;
+    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #26baa4;
+  }
+  body main .section-5 div button:last-of-type {
+    font-size: 1.2rem;
+    background-color: #6173ff;
+    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #6173ff;
+  }
+  body footer {
+    height: 160px;
+    background-color: #f5f6f8;
+    padding: 40px 160px;
+  }
+  body footer .sec {
+    float: left;
+    width: 18%;
+    display: inline-block;
+  }
+  body footer .sec:first-of-type img {
+    height: 50px;
+  }
+  body footer .sec:nth-of-type(2) ul,
+body footer .sec:nth-of-type(3) ul,
+body footer .sec:nth-of-type(4) ul {
+    font-size: 1rem;
+    line-height: 30px;
+    list-style-type: none;
+  }
+  body footer .sec:last-of-type {
+    float: right;
+    text-align: right;
+  }
+  body footer .sec:last-of-type img {
+    height: 20px;
+    margin: 0 5%;
+  }
 }
 
 /*# sourceMappingURL=compiled.css.map */
