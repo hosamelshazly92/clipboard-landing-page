@@ -355,32 +355,32 @@ body footer .sec:last-of-type img {
     width: 100%;
   }
   body footer {
-    height: 160px;
-    background-color: #f5f6f8;
-    padding: 40px 160px;
+    height: auto;
+    padding: 50px 30px;
+    text-align: center;
   }
   body footer .sec {
     float: left;
-    width: 18%;
-    display: inline-block;
+    width: 100%;
+    display: block;
   }
   body footer .sec:first-of-type img {
-    height: 50px;
+    height: 60px;
+    margin: 40px 0;
   }
   body footer .sec:nth-of-type(2) ul,
 body footer .sec:nth-of-type(3) ul,
 body footer .sec:nth-of-type(4) ul {
-    font-size: 1rem;
-    line-height: 30px;
-    list-style-type: none;
+    font-size: 1.5rem;
+    line-height: 80px;
   }
   body footer .sec:last-of-type {
-    float: right;
-    text-align: right;
+    float: none;
+    text-align: center;
   }
   body footer .sec:last-of-type img {
-    height: 20px;
-    margin: 0 5%;
+    height: 30px;
+    margin: 40px 20px;
   }
 }
 
