@@ -266,22 +266,21 @@ body footer .sec:last-of-type img {
     line-height: 30px;
     margin-bottom: 60px;
   }
-  body main .section-2 {
-    clear: both;
-    text-align: center;
-  }
   body main .section-2 .top-2 {
-    padding: 160px 160px 120px 160px;
+    padding: 160px 30px 0 30px;
   }
   body main .section-2 .top-2 h1 {
-    margin-bottom: 40px;
+    font-size: 2.5rem;
   }
   body main .section-2 .top-2 p {
-    color: #9fabb2;
-    line-height: 25px;
+    line-height: 30px;
+  }
+  body main .section-2 .bottom-2 {
+    margin-top: 70px;
   }
   body main .section-2 .bottom-2 img {
-    height: 470px;
+    width: 100%;
+    height: auto;
   }
   body main .section-3 {
     text-align: center;
