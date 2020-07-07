@@ -311,12 +311,11 @@ body footer .sec:last-of-type img {
   }
   body main .section-3 .bottom-3 .card img {
     height: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0;
   }
   body main .section-3 .bottom-3 .card h3 {
     font-size: 2rem;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 20px;
   }
   body main .section-3 .bottom-3 .card p {
@@ -325,18 +324,15 @@ body footer .sec:last-of-type img {
     line-height: 30px;
   }
   body main .section-4 {
-    text-align: center;
-    padding: 160px;
+    padding: 100px 30px;
   }
   body main .section-4 img {
-    width: 18%;
-    padding: 0 3%;
-  }
-  body main .section-5 {
-    text-align: center;
+    display: block;
+    width: 140px;
+    margin: 0 auto 60px auto;
   }
   body main .section-5 h1 {
-    margin-top: 80px;
+    margin-top: 60px;
   }
   body main .section-5 p {
     color: #9fabb2;
