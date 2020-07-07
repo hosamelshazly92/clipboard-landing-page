@@ -230,9 +230,12 @@ body footer .sec:last-of-type img {
   body header p {
     padding: 0;
     line-height: 30px;
+    margin-bottom: 80px;
   }
   body header div button {
     width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
   }
   body main .section-1 {
     padding: 0 30px;
@@ -331,36 +334,25 @@ body footer .sec:last-of-type img {
     width: 140px;
     margin: 0 auto 60px auto;
   }
+  body main .section-5 {
+    padding: 0 30px;
+  }
   body main .section-5 h1 {
-    margin-top: 60px;
+    font-size: 2.5rem;
   }
   body main .section-5 p {
-    color: #9fabb2;
-    margin-top: 40px;
-    padding: 0 160px 0 160px;
+    padding: 0 30px;
+    line-height: 30px;
+    margin-bottom: 40px;
   }
   body main .section-5 div {
-    margin-bottom: 160px;
+    margin-bottom: 170px;
+    padding: 0 30px;
   }
   body main .section-5 div button {
-    margin: 50px 20px 0 20px;
-    width: 220px;
-    height: 60px;
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 400;
-    border: none;
-    border-radius: 30px;
-  }
-  body main .section-5 div button:first-of-type {
-    font-size: 1.2rem;
-    background-color: #26baa4;
-    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #26baa4;
-  }
-  body main .section-5 div button:last-of-type {
-    font-size: 1.2rem;
-    background-color: #6173ff;
-    box-shadow: inset 1px -1px 2px #4c545d, 5px 5px 20px #6173ff;
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
   }
   body footer {
     height: 160px;
