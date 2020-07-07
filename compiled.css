@@ -124,9 +124,9 @@ body main .section-3 .bottom-3 .card:last-of-type {
 }
 body main .section-3 .bottom-3 .card {
   width: 26.6666666667%;
+  height: 200px;
   display: inline-block;
   margin: 0 20px;
-  height: 100px;
 }
 body main .section-3 .bottom-3 .card img {
   height: 40px;
@@ -282,50 +282,47 @@ body footer .sec:last-of-type img {
     width: 100%;
     height: auto;
   }
-  body main .section-3 {
-    text-align: center;
-  }
   body main .section-3 .top-3 {
-    padding: 40px 160px 80px 160px;
+    padding: 80px 30px 80px 30px;
   }
   body main .section-3 .top-3 h1 {
-    margin-bottom: 40px;
+    font-size: 2.5rem;
   }
   body main .section-3 .top-3 p {
-    color: #9fabb2;
-    line-height: 25px;
+    line-height: 30px;
   }
   body main .section-3 .bottom-3 {
-    padding: 0px 160px 0px 160px;
+    padding: 0px 30px 0px 30px;
   }
   body main .section-3 .bottom-3 .card:first-of-type {
-    float: left;
+    float: none;
   }
   body main .section-3 .bottom-3 .card:nth-of-type(2) {
-    display: inline-block;
+    display: block;
   }
   body main .section-3 .bottom-3 .card:last-of-type {
-    float: right;
+    float: none;
   }
   body main .section-3 .bottom-3 .card {
-    width: 26.6666666667%;
-    display: inline-block;
-    margin: 0 20px;
-    height: 100px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
   }
   body main .section-3 .bottom-3 .card img {
     height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   body main .section-3 .bottom-3 .card h3 {
-    margin-top: 40px;
-    margin-bottom: 10px;
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
   body main .section-3 .bottom-3 .card p {
     height: 100px;
-    color: #9fabb2;
-    font-size: 0.8rem;
-    line-height: 20px;
-    margin-bottom: 60px;
+    font-size: 1.5rem;
+    line-height: 30px;
   }
   body main .section-4 {
     text-align: center;
