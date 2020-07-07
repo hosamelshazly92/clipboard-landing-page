@@ -234,35 +234,36 @@ body footer .sec:last-of-type img {
   body header div button {
     width: 100%;
   }
-  body main .section-1 div:first-of-type {
-    text-align: center;
+  body main .section-1 {
+    padding: 0 30px;
   }
   body main .section-1 div:first-of-type h1 {
-    margin-top: 160px;
+    font-size: 2.5rem;
   }
   body main .section-1 div:first-of-type p {
-    padding: 40px 160px 80px 160px;
-    color: #9fabb2;
+    padding: 0;
+    line-height: 30px;
+    margin-top: 40px;
   }
   body main .section-1 div:last-of-type .left {
-    float: left;
-    width: 50%;
-  }
-  body main .section-1 div:last-of-type .left img {
+    float: none;
     width: 100%;
+    margin-top: 70px;
   }
   body main .section-1 div:last-of-type .right {
-    float: right;
-    width: 50%;
-    padding: 70px 270px 0 110px;
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 60px;
+    text-align: center;
   }
   body main .section-1 div:last-of-type .right h3 {
+    font-size: 2.5rem;
     margin-bottom: 10px;
   }
   body main .section-1 div:last-of-type .right p {
-    color: #9fabb2;
-    font-size: 0.8rem;
-    line-height: 20px;
+    font-size: 1.2rem;
+    line-height: 30px;
     margin-bottom: 60px;
   }
   body main .section-2 {
